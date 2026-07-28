@@ -1,27 +1,49 @@
-# ⏰ Relógio Digital
+---
 
-Um projeto simples e elegante de um **Relógio Digital em Tempo Real**, desenvolvido com HTML5, CSS3 e JavaScript. O aplicativo obtém a hora exata do sistema do usuário e atualiza as horas, minutos e segundos dinamicamente na tela.
+## 2. ⏰ README para o [`Rel-gio-Din-nimo`](https://github.com/gmsjess/Rel-gio-Din-nimo)
 
-## 🚀 Tecnologias Utilizadas
+Este é um projeto Web (Front-End) interativo.
 
-- **HTML5:** Estrutura semântica dos blocos de exibição do tempo.
-- **CSS3:** Estilização moderna utilizando Flexbox, cores em gradiente, sombras interativas e a fonte `Open Sans` do Google Fonts.
-- **JavaScript:** Manipulação do DOM e lógica para captura/formatação do tempo com a API de `Date()`.
+```
+# ⏰ Relógio Dinâmico Web
 
-## 🎨 Funcionalidades
+> Aplicação web interativa que exibe a hora atualizada em tempo real e adapta dinamicamente o tema visual da página conforme o período do dia.
 
-- Exibição de **Horas**, **Minutos** e **Segundos** em tempo real.
-- Formatação automática de dois dígitos (adiciona `0` à esquerda para números menores que 10).
-- Layout centralizado e responsivo com design escuro e fundo gradiente.
+---
 
-## 📂 Estrutura de Arquivos
+## 📖 Sobre o Projeto
 
-```text
-.
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       └── script.js
-├── index.html
-└── README.md
+Este projeto foi desenvolvido para praticar a manipulação de elementos da página e lógica dinâmica Web. O sistema detecta a hora do sistema do usuário e altera o plano de fundo e imagens da interface (Manhã, Tarde ou Noite).
+
+### ⚙️ Funcionalidades
+- ⌚ **Exibição em tempo real:** Mostra as horas e minutos exatos.
+- 🎨 **Mudança de Tema Automática:**
+  - 🌅 **Manhã:** Cores suaves e tema ensolarado (06h - 12h).
+  - 🌇 **Tarde:** Tons quentes e tema de entardecer (12h - 18h).
+  - 🌙 **Noite:** Tema escuro e tons noturnos (18h - 05h).
+
+---
+
+## 📷 Demonstração Visal
+
+*(Arraste e solte uma foto ou GIF da sua tela funcionando aqui na caixa de edição do GitHub para gerar o link da imagem!)*
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5:** Estruturação da página.
+- **CSS3:** Estilização, layout responsivo e transições de cores.
+- **JavaScript:** Lógica de manipulação de data/hora (`Date()`) e alteração dinâmica do DOM.
+
+---
+
+## 🚀 Como Visualizar o Projeto
+
+1. Clone o repositório ou faça o download dos arquivos:
+```bash
+$ git clone [https://github.com/gmsjess/Rel-gio-Din-nimo.git](https://github.com/gmsjess/Rel-gio-Din-nimo.git)
+
+
+✍️ Autora
+Desenvolvido por Jéssica Gomes 👋
